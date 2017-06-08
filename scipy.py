@@ -1,5 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
+def execGraph(numentradas, listavalores, valorpar,titulo):
+    plt.figure("Ejecucion")
+    
+    it=0
+    while it<numentradas:
+        plt.subplot(1, numentradas, it+1)
+        plt.plot(valorpar[it],listavalores[it])
+        it=it+1
+    plt.show()
 print "Medicion de tiempos de ejecucion para algoritmo de AEDII"
 toread=open("input.txt")
 array=toread.readlines()
