@@ -21,4 +21,23 @@ tiempos=[] #Medicion de tiempos (Eje y)
 titletrab=[] #Numero de trabajadores (Titulo)
 numtrab=0
 numw=0
-#Proximamente el while
+while i<len(array):
+    tempElem = []
+    tempTiempo = []
+    j=0
+    while j<variaciones:
+        nums = array[i].split()
+        print nums
+        numtrab=int(nums[0])
+        numw=int(nums[1])
+        i=i+1
+        time=int(array[i])
+        print time
+        i=i+1
+        tempElem.append(numw)
+        tempTiempo.append(time)
+        if j==0:
+            titletrab.append(numtrab)
+        j=j+1
+    numElem.append(tempElem)
+    tiempos.append(tempTiempo)
