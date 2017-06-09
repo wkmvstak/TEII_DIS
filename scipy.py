@@ -39,4 +39,3 @@ while i<len(array):
     numElem.append(tempElem)
     tiempos.append(tempTiempo)
 execGraph(tramos,tiempos, numElem, titletrab)
-print "Cambio sin sentido para hacer rollback"
