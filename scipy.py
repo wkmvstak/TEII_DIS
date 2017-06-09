@@ -39,3 +39,4 @@ while i<len(array):
     numElem.append(tempElem)
     tiempos.append(tempTiempo)
 execGraph(tramos,tiempos, numElem, titletrab)
+print "Despues de tantos problemas, a ver si me deja de una vez revertir al commit anterior"
