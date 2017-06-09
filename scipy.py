@@ -41,3 +41,7 @@ while i<len(array):
         j=j+1
     numElem.append(tempElem)
     tiempos.append(tempTiempo)
+print numElem
+print tiempos
+print tramos
+execGraph(tramos,tiempos, numElem, titletrab)
